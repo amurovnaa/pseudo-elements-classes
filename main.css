@@ -1,0 +1,42 @@
+.block1 {
+    color: red;
+    font-style: oblique;
+    font-weight: bold;
+}
+div{
+    margin-left: 50px;
+    max-width: 500px;
+}
+.block2 p::first-line{
+    color: red;
+    font-style: oblique;
+}
+.block3 p::selection{
+    background: green;
+    color: white;
+}
+.block4 p::before {
+    content: "Начало:";
+    color: red;
+}
+.block4 p::after {
+    content: ":конец!";
+    color: green;
+}
+
+ul li:first-child{
+    color: red;
+}
+ul li:last-child{
+    color: green;
+}
+
+/*
+ul li:nth-child(even){
+    color: red;
+}
+
+ul li:nth-child(3),ul li:nth-child(6),ul li:nth-child(9){
+    color: red;
+}
+*/
