@@ -1,4 +1,4 @@
-.block1 {
+.block1 p:first-letter {
     color: red;
     font-style: oblique;
     font-weight: bold;
@@ -35,7 +35,9 @@ ul li:last-child{
 ul li:nth-child(even){
     color: red;
 }
-
+ul li:nth-child(odd){
+    color: red;
+}
 ul li:nth-child(3),ul li:nth-child(6),ul li:nth-child(9){
     color: red;
 }
